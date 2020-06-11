@@ -551,7 +551,7 @@ public class DataElement {
      * integers.
      * Only the first object in the list that is equal to
      * <code>elem</code> will be removed. Other objects, if present,
-     * are not removed.  Since this class doesn’t override the
+     * are not removed.  Since this class doesnç¨š override the
      * <code>equals()</code> method of the <code>Object</code> class,
      * the remove method compares only the
      * references of objects. If <code>elem</code> is
