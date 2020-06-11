@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<assembly>
+    <!-- @version $Revision: 1701 $ ($Author: vlads $) $Date: 2008-04-24 17:15:09 -0400 (Thu, 24 Apr 2008) $ -->
+    <id>debug</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <dependencySets>
+        <dependencySet>
+            <unpack>true</unpack>
+            <scope>runtime</scope>
+            <outputDirectory></outputDirectory>
+            <outputFileNameMapping></outputFileNameMapping>
+            <excludes>
+                <exclude>org.microemu:microemu-javase-applet</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+</assembly>
