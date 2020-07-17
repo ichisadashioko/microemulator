@@ -68,4 +68,3 @@ public interface Choice {
   int size();
   
 }
-

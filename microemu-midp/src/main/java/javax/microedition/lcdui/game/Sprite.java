@@ -1027,5 +1027,3 @@ public class Sprite extends Layer {
     }
 
 }
-
-

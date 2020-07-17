@@ -40,4 +40,3 @@ public class RecordStoreNotFoundException extends RecordStoreException
 	}
 	
 }
-

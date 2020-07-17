@@ -12,4 +12,3 @@ About microemu-test-midlet
 
   Start MicroEmulator Web Start with {{{/microemu-webstart/open-local/~/microemu-tests/microemu-test-midlet/microemu-test-midlet-#version#-test.jnlp}microemu-test-midlet-#version#-test}}.
   This project tests some MicroEmulator functinality using <<{{{http://snapshot.pyx4me.com/pyx4me-cldcunit/}CLDCUnit}}>> J2ME JUnit base test framework.
-

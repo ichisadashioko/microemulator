@@ -166,4 +166,3 @@ Makefile = svn:mime-type=text/plain;svn:eol-style=native;svn:keywords=Date Autho
 *.conf = svn:mime-type=text/plain;svn:eol-style=native;svn:keywords=Date Author Id Revision
 *.tld = svn:mime-type=text/plain;svn:eol-style=native;svn:keywords=Date Author Id Revision
 *.sql = svn:mime-type=text/plain;svn:eol-style=native;svn:keywords=Date Author Id Revision
-

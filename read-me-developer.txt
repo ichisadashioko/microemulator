@@ -119,4 +119,3 @@
    When building all application.
    This is because some users may get ME2 SVN tree and try to compile.
    The microemu-webstart will fail for them.
-

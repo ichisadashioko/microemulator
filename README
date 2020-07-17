@@ -89,5 +89,3 @@ Example for SimpleDemo MIDlet and Large Skin:
 
   To run build without tests:
     mvn -Dmaven.test.skip=true
-
-

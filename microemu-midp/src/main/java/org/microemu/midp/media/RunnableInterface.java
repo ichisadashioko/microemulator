@@ -28,4 +28,3 @@ public interface RunnableInterface extends Runnable
    public boolean isRunning();
    public void setRunning(boolean isRunning);
 }
-

@@ -95,4 +95,3 @@ java -cp microemulator.jar org.microemu.app.Main -Xautotest:http://localhost:808
         7) Wait while MIDlet has Running Threads. So the test MIDlet and its Threads should exit by itself..
 
         8) Continue tests with the same <jar> but load it again; go to 3)
-

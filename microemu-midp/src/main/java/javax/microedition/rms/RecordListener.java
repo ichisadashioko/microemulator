@@ -35,4 +35,3 @@ public interface RecordListener
 	void recordDeleted(RecordStore recordStore, int recordId);
 	
 }
-

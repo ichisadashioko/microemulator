@@ -73,4 +73,3 @@ public final class BWImageFilter implements ImageFilter
   }
 
 }
-

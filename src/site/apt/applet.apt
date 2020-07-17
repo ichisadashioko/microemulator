@@ -132,4 +132,3 @@ Embedding applet into html page
 	<param name="demoServiceURL" value="http://mycompany.com/appdemo/service.php">
 </applet>
 ---
-

@@ -73,4 +73,3 @@ From now use file src/changes.xml
 - only framework of java.microedition.rms package
 - DateField, Gauge, Ticker in javax.microedition.lcdui.* should be implemented
 - many methods of other classes are missing and incomplete (exceptions throwing)
-

@@ -235,4 +235,3 @@ public class IPhoneListUI extends AbstractUI<List> implements ListUI {
 		microEmulator.getWindow().addSubview$(view);
 	}
 }
-

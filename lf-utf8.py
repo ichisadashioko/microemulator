@@ -104,7 +104,7 @@ def find_all_files(infile):
     elif os.path.isdir(infile):
         flist = os.listdir(infile)
         for fname in flist:
-            fpath = f'{infile}/{fname}'
+            fpath = os.path.join(infile, fname)
             retval.extend(find_all_files(fpath))
 
     return retval
@@ -143,16 +143,21 @@ if __name__ == '__main__':
         encoding, decoded_string = Encoding.decode(bs)
 
         if encoding is None:
-            print(f'Skipping {fpath}!')
             continue
 
         if not encoding == Encoding.UTF8:
             open(fpath, mode='w', encoding=Encoding.UTF8).write(decoded_string)
 
         # enforce LF line ending
-        lf_only = decoded_string.replace('\r\n', '\n')
+        content = decoded_string.replace('\r\n', '\n')
+        content = content.strip('\n')
+
+        # append empty line at the end
+        # it's good practice for Git
+        content = content + '\n'
 
         os.remove(fpath)  # file will not be changed if we don't remove it
-        open(fpath, mode='w', encoding=Encoding.UTF8).write(lf_only)
-
+        with open(fpath, mode='wb') as outfile:
+            encoded_content = content.encode(Encoding.UTF8)
+            outfile.write(encoded_content)
         # print(encoding, fpath)

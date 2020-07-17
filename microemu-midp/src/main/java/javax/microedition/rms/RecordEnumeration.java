@@ -57,4 +57,3 @@ public interface RecordEnumeration
   void destroy();
 
 }
-

@@ -28,4 +28,3 @@ Done:
     keytool -keystore ../resources/test-servers.keystore -storepass microemu2006 -list
 
 3. Unit test will load this keystore automaticaly during build
-
